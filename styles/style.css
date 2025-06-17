@@ -1,0 +1,45 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 99vw;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    scale: 1.5;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#placar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+}
